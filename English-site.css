@@ -1,0 +1,47 @@
+
+
+body {
+	  background-size: cover;
+	  background-position: center;
+	  font-family: "Times New Roman", Times, Serif;
+	  color: black;
+}
+
+h1{ font-weight: 400; 
+	font-size: 4em;
+	text-align: center;
+	margin: 5vh;
+}
+
+h3{ font-weight: 400; 
+	font-size: 1.5em;
+	color: black;
+}
+
+#image{
+	 display: block;
+ 	 margin-left: auto;
+ 	 margin-right: auto;
+  	 height: 80vh;
+}
+
+html {height: 100%;
+}
+
+.TOC {
+	display: block;
+	position: center;
+	height: 100vh;
+	width: 500px;
+	margin: auto;
+	color: black;
+}
+
+.TOCheader {
+	font-weight: 400; 
+	font-size: 3em;
+	margin: 5vh;
+	padding-top: 50px;
+	color: black;}
+
+}
