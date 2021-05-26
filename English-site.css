@@ -40,12 +40,20 @@ html {height: 100%;
 	color: black;
 }
 
-@@media screen and (max-width: 320px) {
+@@media screen and (max-width: 400px) {
+
+h1{ font-weight: 400; 
+	width: 100%;
+	font-size: 4em;
+	text-align: center;
+	margin: 5vh;
+}
+
 .TOC {
 	display: block;
 	position: center;
 	height: 100vh;
-	width: 300px;
+	width: 350px;
 	margin: auto;
 	color: pink;
 }
