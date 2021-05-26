@@ -1,4 +1,7 @@
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
 body {
 	  background-size: cover;
@@ -35,6 +38,17 @@ html {height: 100%;
 	width: 500px;
 	margin: auto;
 	color: black;
+}
+
+@@media screen and (max-width: 320px) {
+.TOC {
+	display: block;
+	position: center;
+	height: 100vh;
+	width: 300px;
+	margin: auto;
+	color: pink;
+}
 }
 
 .TOCheader {
